@@ -219,8 +219,8 @@ for sub in subjects:
         # plot
         print(f"Displaying plots for sub-{sub}, ses-{ses}")
         print(s_epochs.info)
-        # s_epochs.plot()
-        # s_epochs.compute_psd().plot_topomap(bands=bands)
+        s_epochs.plot()
+        s_epochs.compute_psd().plot_topomap(bands=bands)
 
 
         # ---------------- EEG DATA ----------------
@@ -283,4 +283,5 @@ for sub in subjects:
 
 
 print("All subjects completed")
+
 
