@@ -39,8 +39,8 @@ for sub in subjects:
         print(f"raw info and plots for sub-{sub}")
         print(raw.info)
         print("Raw data plots:")
-        # raw.plot()
-        # raw.plot_psd(average=True)
+        raw.plot()
+        raw.plot_psd(average=True)
 
 
         # ---------------- BAD CHANNELS DETECTION (Manual) ----------------
@@ -283,3 +283,4 @@ for sub in subjects:
 
 
 print("All subjects completed")
+
