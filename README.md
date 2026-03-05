@@ -70,9 +70,9 @@ For each sentence:
 - permutation test (1000 permutations)
 
 ---
-# 4.Rappresentational Similarity Analysis (RSA)
+# 4.Representational Similarity Analysis (RSA)
 - **File: `RSA.py`** 
-- compute EEG rappresentational Dissimilarity Matrices (RDM)
+- compute EEG Representational Dissimilarity Matrices (RDM)
 - convert semantic RSM to RDM 
 - spearman correlation between upper triangles
 - permutation test (sign-flipping, 10000 iterations)
